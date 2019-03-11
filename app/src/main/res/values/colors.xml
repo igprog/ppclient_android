@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#03A9F4</color>
+    <color name="colorPrimaryLight">#03A9F4</color>
+    <color name="colorAccent">#03A9F4</color>
+    <color name="colorDanger">#EB363B</color>
+    <color name="Transparent">#00000000</color>
+    <color name="black">#000</color>
+
+    <color name="color0">#ffffff</color>
+    <color name="color1">#d580ff</color>
+    <color name="color2">#C3C3C3</color>
+    <color name="color3">#80ffff</color>
+
+    <string-array name="colorArray">
+        <item>@string/white</item>
+        <item>@string/purple</item>
+        <item>@string/gray</item>
+        <item>@string/blue</item>
+    </string-array>
+
+    <string-array name="colorValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+
+    <string name="white">Bijela</string>
+    <string name="gray">Siva</string>
+    <string name="blue">Plava</string>
+    <string name="purple">Ljubičasta</string>
+    <string name="yellow">Žuta</string>
+    <string name="green">Zelena</string>
+    <string name="red">Crvena</string>
+</resources>

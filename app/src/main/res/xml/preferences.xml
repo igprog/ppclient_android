@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:key="color"
+        android:title="Pozadina"
+        android:summary="Odaberi pozadinu ekrana"
+        android:entries="@array/colorArray"
+        android:entryValues="@array/colorValues"
+        android:defaultValue="2"/>
+
+</PreferenceScreen>

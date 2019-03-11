@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <TableLayout
+            android:id="@+id/tlMenus"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="*"
+            android:layout_margin="10dp">
+
+          <!--  <TableRow
+                android:background="@color/colorPrimary"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:textSize="20dp"
+                    android:text="Datum"
+                    android:padding="3dip"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:textStyle="italic"
+                    android:textColor="#fff"/>
+                <TextView
+                    android:textSize="20dp"
+                    android:text="Jelovnik"
+                    android:padding="3dip"
+                    android:gravity="center"
+                    android:textStyle="italic"
+                    android:textColor="#fff" />
+                <TextView
+                    android:textSize="20dp"
+                    android:text=""
+                    android:padding="3dip"/>
+            </TableRow>  -->
+
+        </TableLayout>
+
+    </ScrollView>
+
+</LinearLayout>

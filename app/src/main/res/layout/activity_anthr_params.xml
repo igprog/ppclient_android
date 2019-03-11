@@ -1,0 +1,129 @@
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:titleTextColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp"
+        android:paddingBottom="40dp" >
+
+
+    <TextView
+        android:textSize="16dp"
+        android:id="@+id/tvHeigth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/heigth"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:layout_marginTop="20dp"
+        android:textColor="#03A9F4"/>
+
+    <EditText
+        android:id="@+id/etHeigth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textColor="#000"/>
+
+    <TextView
+        android:textSize="16dp"
+        android:id="@+id/tvBodyMass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/weight"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:layout_marginTop="20dp"
+        android:textColor="#03A9F4"/>
+
+    <EditText
+        android:id="@+id/etBodyMass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textColor="#000"/>
+
+    <TextView
+        android:textSize="16dp"
+        android:id="@+id/tvWaist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/waist"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:layout_marginTop="20dp"
+        android:textColor="#03A9F4"/>
+
+    <EditText
+        android:id="@+id/etWaist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textColor="#000"/>
+
+    <TextView
+        android:textSize="16dp"
+        android:id="@+id/tvHip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hip"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:layout_marginTop="20dp"
+        android:textColor="#03A9F4"/>
+
+    <EditText
+        android:id="@+id/etHip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textColor="#000"/>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Save"
+        android:background="@drawable/shape2"
+        android:textColor="#ffff"
+        android:layout_marginTop="20dp" />
+
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+
+

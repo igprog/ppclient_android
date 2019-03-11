@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <TableLayout
+            android:id="@+id/tlRecords"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="*"
+            android:layout_margin="10dp">
+            <TableRow
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:textSize="15dp"
+                    android:text="Datum"
+                    android:padding="3dip"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:textStyle="bold" />
+                <TextView
+                    android:textSize="15dp"
+                    android:text="@string/weight_"
+                    android:padding="3dip"
+                    android:gravity="center"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:textSize="15dp"
+                    android:text="@string/waist_"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:textSize="15dp"
+                    android:text="@string/hip_"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:textStyle="bold"/>
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>

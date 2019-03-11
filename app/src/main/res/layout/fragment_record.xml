@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="60dp"
+            android:paddingTop="20dp"
+            android:paddingRight="60dp">
+
+            <TextView
+                android:id="@+id/tvDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/measureDate"
+                android:textAlignment="center"
+                android:textSize="16dp"
+                android:textColor="#03A9F4"
+                android:textStyle="italic"/>
+
+            <EditText
+                android:id="@+id/etDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="date"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:focusable="false"/>
+
+            <TextView
+                android:id="@+id/tvWeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/weight"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:textColor="#03A9F4"
+                android:textSize="16dp"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/etWeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/tvShowOtherMeasures"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="@string/ShowOtherMeasures"
+                android:textSize="16dp"
+                android:textStyle="italic"
+                android:textColor="#03A9F4"/>
+
+            <LinearLayout
+                android:id="@+id/llOtherMeasures"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/tvHeigth"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/heigth"
+                    android:textAlignment="center"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#03A9F4"
+                    android:textSize="16dp"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/etHeigth"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    android:textColor="#000"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/tvWaist"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/waist"
+                    android:textAlignment="center"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#03A9F4"
+                    android:textSize="16dp"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/etWaist"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    android:textColor="#000"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/tvHip"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hip"
+                    android:textAlignment="center"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#03A9F4"
+                    android:textSize="16dp"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/etHip"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    android:textColor="#000"
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/energy_expenditure"
+                android:textSize="16dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:textStyle="italic"
+                android:textColor="#03A9F4"
+                android:paddingTop="10dp"/>
+
+            <Spinner
+                android:id="@+id/spPal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"/>
+
+            <Button
+                android:id="@+id/btnSave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/shape2"
+                android:text="@string/Save"
+                android:textColor="#ffff" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
+

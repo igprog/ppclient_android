@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view" >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/itClientData"
+            android:title="@string/ClientData" />
+        <item
+            android:id="@+id/itRecord"
+            android:title="@string/Record"/>
+        <item
+            android:id="@+id/itRecords"
+            android:title="@string/Records" />
+        <item
+            android:id="@+id/itMenus"
+            android:title="@string/Menus" />
+        <item
+            android:id="@+id/itSettings"
+            android:title="@string/Settings"/>
+        <item
+            android:id="@+id/itInfo"
+            android:title="@string/Info"/>
+        <item
+            android:id="@+id/itLogout"
+            android:title="@string/Logout"/>
+        <item
+            android:id="@+id/itExit"
+            android:title="@string/exit"/>
+
+    </group>
+
+</menu>

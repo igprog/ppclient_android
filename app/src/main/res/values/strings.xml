@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Program Prehrane</string>
+    <string name="navigation_drawer_open">Otvori</string>
+    <string name="navigation_drawer_close">Zatvori</string>
+    <string name="ClientData">Moji podaci</string>
+    <string name="Record">Moje mjere</string>
+    <string name="Records">Statistika</string>
+    <string name="Menus">Jelovnici</string>
+    <string name="Settings">Postavke</string>
+    <string name="Logout">Odjava</string>
+    <string name="exit">Izlaz iz aplikacije</string>
+    <string name="Info">O aplikaciji</string>
+    <string name="exit_msg">Dali ste sigurni da želite izaći iz aplikacije</string>
+    <string name="yes">Da</string>
+    <string name="no">Ne</string>
+    <string name="enter">Ulaz</string>
+    <string name="Save">Spremi</string>
+    <string name="ShowOtherMeasures">Ostale mjere</string>
+    <string name="Mass">Masa (kg):</string>x
+    <string name="DateOfBirth">Datum rođenja:</string>
+    <string name="weight">Masa (kg):</string>
+    <string name="heigth">Visina (cm):</string>
+    <string name="waist">Opseg struka (cm):</string>
+    <string name="hip">Opseg bokova (cm):</string>
+    <string name="weight_">Masa \n(kg)</string>
+    <string name="heigth_">Visina \n(cm)</string>
+    <string name="waist_">Struk \n(cm)</string>
+    <string name="hip_">Bokovi \n(cm)</string>
+    <string name="InfoText">Program Prehrane Klijent v.1.0.0  "\n"
+                             Copyright(c) 2019 IG PROG "\n"
+                             Autor: Sanja Reljić i Igor Gašparović "\n"
+                             www.programprehrane.com</string>
+    <string name="firstName">Ime:</string>
+    <string name="lastName">Prezime:</string>
+    <string name="Email">E mail:</string>
+    <string name="phoneNumber">Broj telefona:</string>
+    <string name="measureDate">Datum mjerenja:</string>
+    <string name="activationCode">Aktivacijski kod:</string>
+    <string name="nutritionPlan">PROGRAM PREHRANE</string>
+    <string name="anApplicationForTrackingAnthropometricParametersAndDownloadingTheMenu">Aplikacija za praćenje antropometrijskih parametara i preuzimanje jelovnika</string>
+    <string name="askYourActivationCodeAtYourNutritionist">*Aktivacijski kod zatražite kod svojeg nutricioniste.</string>
+    <string name="radio_male">Muški</string>
+    <string name="radio_female">Ženski</string>
+    <string name="gender">Spol:</string>
+    <string name="energy_expenditure">Intezitet tjelesne aktivnosti :</string>
+    <string name="inactive">Izrazito slab</string>
+    <string name="sedentary">Slab</string>
+    <string name="ok">OK</string>
+    <string name="network_alert_msg">Nema internetske veze</string>
+    <string name="moderately_active">Umjeren</string>
+    <string name="active">Pojačan</string>
+    <string name="very_active">Izražen</string>
+    <string name="extremely_active">Ekstreman</string>
+    <string name="saved">Spremljeno</string>
+    <string name="activation">Aktivacija</string>
+    <string name="loading">Učitavanje...</string>
+</resources>
